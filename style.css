@@ -1,32 +1,42 @@
 @font-face {
     font-family: "Droid Serif";
-    src: url('fonts/DroidSerif-Regular.ttf') format('ttf');
+    src: url('assets/fonts/DroidSerif-Regular.ttf') format('ttf');
 }
 
+html {
+    height: 100%;
+}
 body {
     font-family: "Droid Serif", serif;
     font-weight: 100;
-    /*font-size: 30px;*/
-    margin: 5% 15%;
+    margin: 40px;
+    height: 100%;
 }
 
 .container {
-    align-items: center;
     text-align: center;
+    height: 100%;
 }
 
 header {
     font-size: 100px;
+    padding-bottom: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 100;
     margin-bottom: 0;
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 30px;
     font-weight: 100;
     margin: 0;
 }
@@ -39,16 +49,16 @@ article {
 .main-list {
     list-style: none;
     padding-inline-start: 0;
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 .main-list li {
-    font-size: 30px;
+    font-size: 45px;
     margin-top: 15px;
 }
 
 .sub-list li {
-    font-size: 26px;
+    font-size: 35px;
     margin-top: 0;
     list-style: none;
 }
