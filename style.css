@@ -10,7 +10,9 @@ body {
     font-family: "Droid Serif", serif;
     font-weight: 100;
     margin: 40px;
-    height: 100%;
+    background-image: url("assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
